@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.e-pivotview {
+  width: 100%;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media only screen and (max-width: 400px) {
+  #pivot-table-section {
+      overflow: auto;
+  }
+}
+
+#PivotViewcontainerwrapper {
+  height: auto !important;
+}
+
+.e-pivotview .e-hyperlinkcell {
+  text-decoration: auto;
+}
+
+.e-pivotview .e-hyperlinkcell:hover {
+  text-decoration: underline;
+}
+
+.e-pivotview .university-logo {
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.urllink {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 12px;
 }
